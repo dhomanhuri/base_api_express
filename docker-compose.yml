@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  api:
+    container_name: be_csm
+    build:
+      context: ./
+      target: apicsm
+    ports:
+      - 3310:3310
+    restart: always
