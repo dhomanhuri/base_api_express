@@ -1,4 +1,5 @@
 const model = require("../models/index");
+const jwt = require("jsonwebtoken");
 
 const example = (req, res) => {
     try {
